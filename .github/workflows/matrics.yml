@@ -16,12 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Matrics
-        uses: rifky999/rifky999@latest
+        uses: lowlighter/metrics@latest
         with:
           template: repository
           filename: metrics.repository.svg
           token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}
-          user: rifky999
+          user: lowlighter
           repo: metrics
           plugin_lines: yes
           plugin_followup: yes
